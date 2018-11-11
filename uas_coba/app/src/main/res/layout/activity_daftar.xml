@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.k.uas_coba.Daftar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/daftar_txtJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:text="Register Dulu Ya..." />
+
+        <TextView
+            android:id="@+id/daftar_txtJudul2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:text="Silahkan mendaftar dahulu" />
+
+        <TextView
+            android:id="@+id/daftar_txtJudul3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:paddingBottom="25dp"
+            android:textAlignment="center"
+            android:text="untuk dapat menikmati fitur kami" />
+
+        <EditText
+            android:id="@+id/daftar_edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Email"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/daftar_edtHandphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:hint="No. Telp / Handphone"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/daftar_edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Nama Lengkap"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/daftar_edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Username"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/daftar_edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Password"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/daftar_btnDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Daftar" />
+
+        <TextView
+            android:id="@+id/daftar_txtBawah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:text="Dengan mendaftar, anda akan memiliki akun" />
+
+        <TextView
+            android:id="@+id/daftar_txtBawah1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:text="untuk menikmati fitur kami" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginEnd="-20dp"
+        android:layout_toStartOf="@+id/daftar_btnMasuk"
+        android:text="Sudah punya akun? "
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/daftar_btnMasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="79dp"
+        android:background="@android:color/transparent"
+        android:text="Masuk"
+        android:textColor="@android:color/holo_blue_dark" />
+</RelativeLayout>
