@@ -34,9 +34,9 @@ public class Beranda extends AppCompatActivity
 
     private void getImages()
     {
-        mImagesUrl.add(R.drawable.i_user);
-        mImagesUrl.add(R.drawable.i_user);
-        mImagesUrl.add(R.drawable.i_user);
+        mImagesUrl.add(R.drawable.ev_1);
+        mImagesUrl.add(R.drawable.ev_1);
+        mImagesUrl.add(R.drawable.ev_1);
     }
 
     private void  initRecyclerview()
@@ -48,6 +48,7 @@ public class Beranda extends AppCompatActivity
         madapter = new event_adapter(mImagesUrl,this);
         recyclerViewww.setAdapter(madapter);
 
-    }
+        recyclerViewww.setHasFixedSize(true);
 
+    }
 }
