@@ -7,13 +7,13 @@
     android:background="@drawable/bg"
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
-    tools:context="com.example.k.uas_coba.Activity.Wahana">
+    tools:context="com.example.k.uas_coba.Activity.Merchandise">
 
     <RelativeLayout
         android:id="@+id/kotak_warna"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="#00baff">
+        android:background="#ff5951">
 
         <TextView
             android:layout_width="wrap_content"
@@ -22,12 +22,12 @@
             android:textSize="40dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="Wahana"
+            android:text="Merchandise"
             android:textStyle="bold" />
     </RelativeLayout>
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/wahana_recyclerview"
+        android:id="@+id/merchandise_recyclerview"
         android:layout_below="@+id/kotak_warna"
         android:layout_above="@+id/menu_bawah"
         android:layout_width="match_parent"
@@ -50,21 +50,21 @@
             android:layout_marginTop="10dp">
 
             <ImageView
-                android:id="@+id/beranda_wahana"
+                android:id="@+id/beranda_merchandise"
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_beranda"
                 android:scaleType="fitCenter" />
 
             <ImageView
-                android:id="@+id/search_wahana"
+                android:id="@+id/search_merchandise"
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_search"
                 android:scaleType="fitCenter" />
 
             <ImageView
-                android:id="@+id/user_wahana"
+                android:id="@+id/user_merchandise"
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_user"
